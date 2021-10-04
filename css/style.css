@@ -1,0 +1,176 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.navbar {
+  background: black;
+  flex: 0 0 auto;
+}
+.nav-link,.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+.nav-link {
+  margin-right: 1em;
+  font-weight: 700;
+}
+.nav-link:hover {
+  color: red;
+  text-decoration: underline;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.main{
+    background: #F7F7F7;
+    flex: 1 0 auto;
+}
+.main1{
+    background: white;
+    flex: 1 0 auto;
+    padding: 15px
+}
+
+
+.fimg {
+    width: 200px;
+    height: 100px;
+}
+.footer-links  a{
+    color: #6d7a83;
+    font-weight: 700;
+    margin-right: 2em;
+    text-decoration: underline;
+}
+.footer-links a:hover{
+    color: #00aeef;
+    text-decoration: underline;
+}
+.footer-content p {
+    color: white;   
+    font-weight: 450;
+    font-size: 14px;
+}
+
+.footer-copy{
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+
+.button1 p  {
+	font-size: 34px;
+	font-weight: 800;
+}
+.button1 {
+	 left: 50%;
+      position: absolute;
+      top: 40%;
+      transform: translate(-50%, -55%);
+	text-align: center;
+}
+.button1 #student {
+			width: 180px;
+			height: 35px;
+			color:white;
+			background-color:grey;
+			border-radius: 4px;
+			border-width: 0;
+			
+			outline: none;
+			font-family: KaiTi;
+			font-size: 18px;
+			text-align: center;
+			cursor: pointer;
+		}
+		.button1 #student:hover{
+			background-color: antiquewhite;
+			color:grey;
+		}
+
+.button1 #staff {
+			width: 180px;
+			height: 35px;
+			color:grey;
+			background-color:antiquewhite;
+			border-radius: 4px;
+			border-width: 0;
+      outline: none;
+			font-family: KaiTi;
+			font-size: 18px;
+			text-align: center;
+			cursor: pointer;
+		}
+		.button1 #staff:hover{
+			background-color: grey ;
+			color: white;
+		}
+#remove, #remove1 {
+  width: 50%;
+  margin: 0 auto;
+  padding:5px;
+  background-color: #F7F7F7;
+  border:1px solid #E4E4E4;
+  padding: 50px;
+  display: none;
+  border-radius: 10px;
+  box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+}
+       
+#remove h1 , #remove1 h1{
+  font-size: 25px;
+  padding: 0px 0px 10px 40px;
+  display: block;
+  border-bottom:1px solid #E4E4E4;
+  margin: -10px -15px 30px -10px;;
+  color: #888;
+}
+
+#remove h1>span, #remove1 h1>span {
+  display: block;
+  font-size: 11px;
+}
+#remove label, #remove1 label {
+  display: block;
+  margin: 0px;
+}
+ 
+#remove label>span, #remove1 label>span {
+  float: left;
+  width: 50%;
+  text-align: right;
+  padding-right: 10px;
+  margin-top: 1px;
+  color: #888;
+}
+
+#remove #submit, #remove1 #submit {
+  background: #E27575;
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  padding: 10px 25px 10px 25px;
+  color: #FFF;
+  box-shadow: 1px 1px 5px grey;
+  border-radius: 3px;
+  text-shadow: 1px 1px 1px #9E3F3F;
+  cursor: pointer;
+}
+ 
+#remove #submit:hover, #remove1 #submit:hover {
+  background: #CF7A7A;
+}
+
