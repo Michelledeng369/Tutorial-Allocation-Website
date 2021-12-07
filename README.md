@@ -12,3 +12,9 @@ and tutorials details and they can see students details who enrol their units/tu
 Most of the design is implemented through Bootstrap, and for security, the database has a password encryption.
 
 For everything you want to know about this website, please check the readme folder!
+
+
+Demo:
+
+https://user-images.githubusercontent.com/88606527/144970384-6afdcd26-0230-46ee-b925-b064f318f9d6.mp4
+
